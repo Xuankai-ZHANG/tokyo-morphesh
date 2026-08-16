@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+matplotlib
+shapely
+geopandas
+pyarrow
+Pillow
+scikit-learn
+duckdb
+networkx
+PyYAML
+numba

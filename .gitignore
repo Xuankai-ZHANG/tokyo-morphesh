@@ -1,0 +1,29 @@
+# Derived data not shipped to GitHub (size + upstream licensing) — keep locally
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Rendered figure outputs (regenerate with code/figures/plot_figure*.py)
+figures/panels/
+figures/audits/
+
+# Reassembled full daily tables (regenerate with scripts/reassemble_daily.py)
+data/results/daily/cssr_daily_tp[0-9][0-9][0-9].parquet
+
+# OS / editor
+.DS_Store
+Thumbs.db
+nul
+
+# Reassembled full shapes (regenerate with scripts/reassemble_shapes.py)
+data/input/shapes/gen_shapes/month=*.parquet
+data/input/shapes/dem_shapes.parquet
+
+# Scenario + smoke simulation outputs (regenerate by running the pipeline)
+code/scenario/results/
+data/results/smoke_*/
