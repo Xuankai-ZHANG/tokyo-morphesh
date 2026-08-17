@@ -1,0 +1,38 @@
+{
+  "description": "Per-mesh normalized generation shapes (100% deployment scenario)",
+  "source": "half-hourly smart-meter electricity data (4 prefectures, 2024)",
+  "formula": "gen_shape = (self_consume + sell) / annual_total_gen",
+  "normalization": "sum(gen_shape over year) = 1.0 per mesh",
+  "n_meshes": 30701,
+  "n_months": 48,
+  "total_rows": 399418512,
+  "files": [
+    "month=01.parquet",
+    "month=02.parquet",
+    "month=03.parquet",
+    "month=04.parquet",
+    "month=05.parquet",
+    "month=06.parquet",
+    "month=07.parquet",
+    "month=08.parquet",
+    "month=09.parquet",
+    "month=10.parquet",
+    "month=11.parquet",
+    "month=12.parquet"
+  ],
+  "month_days_2024": {
+    "1": 31,
+    "2": 29,
+    "3": 31,
+    "4": 30,
+    "5": 31,
+    "6": 30,
+    "7": 31,
+    "8": 31,
+    "9": 30,
+    "10": 31,
+    "11": 30,
+    "12": 31
+  },
+  "created_at": "2026-06-21 10:05:56"
+}
