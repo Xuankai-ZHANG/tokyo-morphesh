@@ -1,0 +1,15 @@
+deployment_pct,profile,penalty_pct
+10,Common irradiance,-0.0605352344715148
+10,Mesh-specific profiles,-0.1063789350441046
+15,Common irradiance,-0.1193305236275588
+15,Mesh-specific profiles,-0.1830113320118842
+20,Common irradiance,-0.013988170535395
+20,Mesh-specific profiles,1.7803341758733435
+30,Common irradiance,3.2340909662729067
+30,Mesh-specific profiles,6.653273904117718
+40,Common irradiance,4.972681389467226
+40,Mesh-specific profiles,10.486657726160786
+50,Common irradiance,10.223063614716033
+50,Mesh-specific profiles,16.48420327700594
+100,Common irradiance,13.813731659386452
+100,Mesh-specific profiles,26.231818048463605

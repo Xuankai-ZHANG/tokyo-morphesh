@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-08-03T14:57:07.924312+00:00",
+  "status": "author_selected_energy_density_calibration",
+  "target_roof_energy_density_kwh_m2_yr": 200.0,
+  "calibration_support": "final_common_20833_meshes",
+  "base_area_weighted_density_kwh_m2_yr": 161.28496861135375,
+  "uniform_calibration_factor": 1.2400411626822916,
+  "final_support_rows": 20833,
+  "final_support_roof_area_km2": 510.252543071535,
+  "final_support_potential_twh": 102.050508614307,
+  "final_support_demand_twh": 290.20086167856493,
+  "final_support_pgr": 0.35165474018247805,
+  "deployment_rate_gt_one_count": 477,
+  "grid_alignment": {
+    "method": "source-center to corrected JIS-center nearest Haversine",
+    "crosswalk_rows_audited": 21782,
+    "haversine_changes_all": 2,
+    "haversine_changes_final_support": 1
+  },
+  "interpretation": "Preserves source-grid relative yield variation but calibrates the final-support roof-area-weighted mean to 200 kWh/m2/yr. This is an author-selected literature-anchored proxy, not a direct source-model total."
+}

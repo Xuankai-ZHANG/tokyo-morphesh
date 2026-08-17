@@ -27,11 +27,11 @@ python code/figures/plot_figure4.py
 
 ## Data
 
-The derived input, result, and figure-staging data (~3.4 GB) are **not
-included in this repository** because of their size and upstream licensing
-status. The simulation engine and scripts are self-contained; contact the
-author for access to the data.
+Processed input, result, and figure-staging data live under `data/`.
+Per-mesh daily tables and the 30-min generation/demand shapes are shipped as
+row-chunks — rebuild with `python scripts/reassemble_daily.py --verify` and
+`python scripts/reassemble_shapes.py`.
 
 ## License
 
-Code: MIT (`LICENSE`).
+Code: MIT (`LICENSE`). Data: CC BY 4.0 (`data/LICENSE.md`).

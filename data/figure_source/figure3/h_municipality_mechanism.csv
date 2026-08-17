@@ -1,0 +1,7 @@
+stage,value_twh,denominator_twh,share_pct,source_kind,source_file
+gross_mesh_surplus,1.6755443531999956,1.6755443531999956,100.0,formal_parquet,trajectory_summary.parquet
+residual_municipal_surplus,0.30549271540033635,1.6755443531999956,18.232445761098408,formal_parquet,trajectory_summary.parquet
+primary,0.15684567666171617,0.30549271540033635,51.34187126399266,formal_parquet,trajectory_summary.parquet
+maximum_r_lambda,0.16941486865581312,0.30549271540033635,55.45627116960924,formal_parquet,trajectory_summary.parquet
+multi_round,0.2046,0.30549271540033635,66.97377373855859,report_derived_diagnostic,inter_municipal_sharing_report.md
+pooling,0.30549271540033635,0.30549271540033635,100.0,formal_parquet,trajectory_summary.parquet

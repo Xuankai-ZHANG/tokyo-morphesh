@@ -1,0 +1,2 @@
+alpha,radius_km,lambda_km,B_system_annual_TWh,B_coordinated_annual_TWh,M_rule_annual_TWh,reachability_ratio,allocation_efficiency,B_coordinated_to_M_rule_gap_TWh,n_steps,n_active_steps
+0.3,5.0,5.0,1.6755443531999967,1.48032991626885,1.2489877478718772,0.8834919311098381,0.8437225608599013,0.23134216839697266,17568,8459

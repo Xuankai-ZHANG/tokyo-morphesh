@@ -1,0 +1,5 @@
+deployment_pct,profile,range_min_pct,range_max_pct,manifest_count
+30,Common irradiance,2.6408555229049058,5.356271856154137,4
+30,Mesh-specific profiles,6.653273904117718,10.65200797110476,4
+100,Common irradiance,11.803976811841022,13.813731659386452,4
+100,Mesh-specific profiles,17.473410146727154,26.231818048463605,4

@@ -1,0 +1,4 @@
+alpha_label,lambda_label,category_3,n_meshes,surplus_share_pct,receipt_share_pct,receipt_minus_surplus_pp,support,unit
+tp030,5.0,metropolitan_core,5358,13.869045671206989,17.610879366053265,3.7418336948462763,accepted_20833_meshes,percentage_points_of_system_composition
+tp030,5.0,regional_city,13653,77.66548567359727,75.85992704869538,-1.8055586249018916,accepted_20833_meshes,percentage_points_of_system_composition
+tp030,5.0,rural,1822,8.465468655195728,6.529193585251353,-1.936275069944375,accepted_20833_meshes,percentage_points_of_system_composition
